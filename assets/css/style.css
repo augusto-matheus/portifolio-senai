@@ -13,6 +13,7 @@ body{
     border-bottom: 10px solid var(--border);
     border-right: 10px solid var(--border);
     font-family: 'Ubuntu';
+    
 }
 
 .portifolio-image{
@@ -96,3 +97,26 @@ p {
     background: var(--border);
     color: var(--img-bg);
 } 
+
+.modal {
+    display: none;
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    width: 50%;
+    height: 70%;
+    background: #ffffff;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+.btn-modal {
+    background: var(--border);
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}

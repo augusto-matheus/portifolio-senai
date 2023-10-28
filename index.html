@@ -18,42 +18,46 @@
 
    </head> 
 
-   <body>
+  <body>
 
- <div id="wrap">
+   <div id="wrap">
     <div class="grid-header">
     <section class="portifolio-image">
         <div class="portifolio-image_center"><img src="pantereixon.png" style="height: 217px; width: 217px; border-radius: 100%;" alt=""></div>
     </section>
     <div class="grid-header_item">
-        <h1 class="portifolio-name">Augusto Matheus</h1>
-    <small class="portifolio-role">Software Developer</small>
-    <ul class="portifolio-contacts">
-        <li><img src="assets/imagens/github.svg" alt=""> </li>
-        <li><img src="assets/imagens/email.svg" alt=""></li>
-        <li><img src="assets/imagens/linkedin.svg" alt=""></li>
-    </ul> 
+        <h1 class="portifolio-name js-portifolio-name"></h1>
+    <small class="portifolio-role js-portifolio-role">Software Developer</small>
+    <ul class="portifolio-contacts js-portifolio-contacts"></ul> 
     </div>
    </div>
    <div class="grid-resume">
     <h2>Sobre Mim</h2>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias tempore facere atque ex, dolor eum incidunt minus nihil quae cum voluptatem iure reprehenderit quo aliquid
-         consequatur ullam mollitia? Facere, distinctio quae, illo rerum fugiat ipsa earum rem, vel autem et harum quos! Facilis, aspernatur at assumenda esse et ipsa molestiae?
+    <p class="js-resume-text">
+        
     </p>
     
    </div>
-  <div class="grid-btns">
+   <div class="grid-btns">
     <div class="grid-row">
-     <button class="btn primary">Meu currículo</button>
+     <button class="btn primary">Meu Currículo</button>
      <a class="btn" href="">Fale Comigo</a>
     </div>
 
-    <a class="btn" href="">Meus Projetos</a>
-  </div>
-   
- </div>
+    <button class="btn js-btn-projects">Meus Projetos</button>
 
-   </body>
+   </div>
+   
+   </div>
+
+       <section class="modal js-modal">
+        <button class="btn-modal js-btn-voltar">Voltar</button>
+      
+       </section>
+
+     <script type="module" src="./assets/javascript/app.js"></script>
+     <script type="module" src="./data/data.js"></script>
+
+  </body>
 
 </html>
